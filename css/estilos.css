@@ -50,6 +50,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        transition: left 500ms ease-in-out;
     }
     .button_slider
     {
