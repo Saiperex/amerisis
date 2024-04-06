@@ -79,7 +79,6 @@
 .inicio
 {
     width: 100%;
-    height: 100vh;
     background-image: url("../recursos/contenido/1.PNG");
     background-size: cover;
     background-position: center;
@@ -105,7 +104,13 @@
 {
     width: 50%;
     min-width: 320px;
+    display: flex;
+    align-items: center;
     padding: 10px;
+}
+.inicio_sec img
+{
+    width: 100%;
 }
 .inicio_sec form
 {
@@ -113,6 +118,72 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    background-color: #fefefe;
+    background-color: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(13px);
     padding: 10px;
+    color: #fff;
+}
+.inicio_sec form h2, .inicio_sec form h4
+{
+    margin: 5px 0;
+}
+.inicio_sec form label
+{
+    margin: 10px 0;
+}
+.inicio_sec form input
+{
+    outline: none;
+    border: 0;
+    border-bottom: solid 1px #fff;
+    background-color: transparent;
+    padding: 5px;
+    color: #fff;
+}
+.inicio_sec form textarea
+{
+    outline: none;
+    border: 0;
+    border: solid 1px #fff;
+    background-color: transparent;
+    padding: 5px;
+    color: #fff;
+}
+.redes
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inicio_sec form a
+{
+    margin: 10px;
+}
+.inicio_sec form i
+{
+    font-size: 30px;
+    
+}
+.fa-facebook
+{
+    color: #4267B2;
+}
+.fa-instagram
+{
+    color: #E1306C;
+}
+.fa-whatsapp
+{
+    color: #25D366;
+}
+.form_button
+{
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #c9a221;
+    color: #fff;
+    border: solid 1px transparent;
+    cursor: pointer;
 }
