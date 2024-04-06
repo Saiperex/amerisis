@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <!--ICONS-->
     <script src="https://kit.fontawesome.com/c8bf7962f3.js" crossorigin="anonymous"></script>
@@ -11,14 +12,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Residencias Amerisis I</title>
 </head>
+
 <body>
     <header class="cabecera">
         <div class="cabecera_mid">
             <nav class="menu">
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
                 <li><a href="#nosotros">nosotros</a></li>
                 <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </nav>
             <div class="button_slider">
                 <div class="line"></div>
@@ -55,7 +57,43 @@
                 </div>
             </div>
         </section>
+        <section id="nosotros" class="nosotros">
+            <div class="nosotros_contenedor">
+                <h2>Sobre nosotros</h2>
+                <p class="nosotros_parrafo">Las Residencias Universitarias AMERISIS ofrecen un ambiente acogedor y
+                    estimulante para estudiantes universitarios que desean permanecer en un ambiente seguro y cómodo
+                    para residir en el plazo de sus años de estudio en la Universidad</p>
+                <div class="cards">
+                    <div class="card">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <h4>Excelente ubicación</h4>
+                        <p>Disfrutá de Córdoba viviendo en el barrio de los estudiantes.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-key"></i>
+                        <h4>Llaves indivuales</h4>
+                        <p>Sin restricciones, para que manejes tus horarios sin horarios!</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <h4>Precios asequibles</h4>
+                        <p>Que tu unica preocupación sea estudiar</p>
+                    </div>
+                </div>
+                <a href="">Conoce mas de nosotros</a>
+            </div>
+        </section>
     </main>
     <script src="js/slider.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 5,
+            speed: 600,
+            glare:true,
+        });
+        
+    </script>
 </body>
+
 </html>
