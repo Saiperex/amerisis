@@ -350,3 +350,36 @@
 {
     margin: 20px;
 }
+/*footer*/
+/*footer*/
+footer
+{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: var(--blanco);
+    color: #fefefe;
+}
+.sec_footer
+{
+    margin: 20px 0;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    color: #fefefe;
+}
+.sec_footer h2
+{
+    margin: 10px 0;
+}
+.sec_footer img
+{
+    width: 100px;
+}
+.sec_footer a
+{
+    color: var(--blanco);
+    margin: 10px 5px;
+}
