@@ -76,6 +76,25 @@
 {
     width: 100%;
 }
+/*fondo*/
+.fondo
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image: url("../recursos/contenido/3.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.gray
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
 /*Inicio*/
 .inicio
 {
@@ -203,7 +222,6 @@
     width: 100%;
     justify-content: space-around;
     padding-top: 10vh;
-    background-color: #000;
     display: flex;
     justify-content: center;
 }
@@ -268,11 +286,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #000;
+    color: #fff;
 }
 .servicios_section
 {
     width: 60%;
     min-width: 320px;
+    margin-bottom: 5vh;
 }
 .swiper-slide
 {
@@ -288,5 +309,44 @@
 /*Contactos*/
 .contactos
 {
-    
+    width: 100%;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fefefe;
+}
+.contactos_centrado
+{
+    width: 80%;
+    min-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacto_sec
+{
+    width: 50%;
+    min-width: 320px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto_sec iframe
+{
+    width: 80%;
+    min-width: 320px;
+    height: 80%;
+    border-radius: 16px;
+    box-shadow: 10px 10px 30px #000;
+}
+.contacto_sec .redes
+{
+    font-size: 30px;
+}
+.contacto_sec .redes i
+{
+    margin: 20px;
 }
