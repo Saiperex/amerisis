@@ -415,3 +415,21 @@ footer
         opacity: 100%;
     }    
 }
+/**/
+
+button {
+    font-family: 'Caveat', cursive;
+  }
+  p {
+    font-family: 'Parisienne', cursive;
+  }
+  label {
+    font-family: 'Great Vibes', cursive;
+  }
+  h2 {
+    font-family: 'Lobster', cursive;
+  }
+  h1 {
+    font-family: 'Dancing Script', cursive;
+  }
+          
